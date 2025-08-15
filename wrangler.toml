@@ -1,4 +1,4 @@
-name = "ou-sion"
+name = "oouu-org-homepage"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 
@@ -10,4 +10,5 @@ name = "oouu-org-homepage"
 
 [env.staging]
 name = "oouu-org-homepage-staging"
+
 

@@ -1,0 +1,23 @@
+{
+  "name": "oouu-org-homepage",
+  "version": "1.0.0",
+  "description": "OOUU.ORG Personal Homepage - Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:staging": "wrangler deploy --env staging",
+    "deploy:production": "wrangler deploy --env production",
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests configured'"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "keywords": ["personal", "homepage", "cloudflare-workers", "oouu-org"],
+  "author": "OOUU.ORG",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

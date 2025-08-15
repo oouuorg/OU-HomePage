@@ -88,4 +88,5 @@ wrangler tail
 - HTML文件配置1小时缓存
 - 启用了CORS支持
 - 添加了错误处理
+- 使用Cloudflare Workers原生API获取用户IP，更加可靠
 

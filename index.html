@@ -50,5 +50,18 @@
   <script src="assets/js/breakpoints.min.js"></script> 
   <script src="assets/js/util.js"></script> 
   <script src="assets/js/main.js"></script> 
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      fetch('/api/ip')
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById('user-ip').textContent = data.ip;
+        })
+        .catch(error => {
+          document.getElementById('user-ip').textContent = '获取失败';
+          console.error('获取IP失败:', error);
+        });
+    });
+  </script>
  </body>
 </html>
